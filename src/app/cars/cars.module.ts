@@ -6,7 +6,8 @@ import { TotalCostComponent } from './total-cost/total-cost.component';
 @NgModule({
   declarations: [
     CarsListComponent,
-    TotalCostComponent
+    TotalCostComponent,
+    
   ],
   exports: [
     CarsListComponent

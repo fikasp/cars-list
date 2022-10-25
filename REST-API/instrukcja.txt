@@ -1,0 +1,9 @@
+Aby uruchomiæ serwer nale¿y wykonaæ nastêpuj¹ce kroki:
+
+1. Otworzyæ konsolê w katalogu z tym plikiem (instrukcja.txt) i wpisaæ komendê:
+"npm install" w celu pobrania paczek
+
+2. Gdy ju¿ siê pojawi katalog node_modules, uruchamiamy serwer komend¹:
+"node ."
+
+3. Pod adresem http://localhost:3000/explorer mo¿emy przejrzeæ strukturê REST API

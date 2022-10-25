@@ -1,0 +1,68 @@
+{
+  "name": "car",
+  "plural": "cars",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "model": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "year": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "cost": {
+      "type": "number",
+      "required": true
+    },
+    "isFullyDamaged": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "clientFirstName": {
+      "type": "string",
+      "required": true
+    },
+    "clientSurname": {
+      "type": "string",
+      "required": true
+    },
+    "power": {
+      "type": "number",
+      "required": true
+    },
+    "plate": {
+      "type": "string",
+      "required": true
+    },
+    "deliveryDate": {
+      "type": "date",
+      "required": true
+    },
+    "deadline": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
