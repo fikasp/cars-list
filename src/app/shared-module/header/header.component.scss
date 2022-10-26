@@ -1,0 +1,14 @@
+@import "../../../styles/variables";
+
+.header {
+  background: $white;
+  color: $black;
+  padding: 10px;
+
+  .levels {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $blue;
+  }
+}
